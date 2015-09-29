@@ -1,5 +1,6 @@
 @extends('layout.index')
 
 @section('content')
-<h1>Create a new API</h1>
+<h1>API detail</h1>
+
 @stop

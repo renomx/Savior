@@ -27,8 +27,7 @@
           <div class="navbar-collapse collapse navbar-inverse-collapse">
             <ul class="nav navbar-nav">
               <li><a href="/">Dashboard</a></li>
-              <li><a href="/">Sucursales</a></li>
-              <li><a href="/">Menu</a></li>
+              <li><a href="/api">API</a></li>            
             </ul>
            
             <ul class="nav navbar-nav navbar-right">

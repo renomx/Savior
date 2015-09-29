@@ -11,8 +11,13 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'WelcomeController@index');
 
-Route::controller('api', 'apiController');
+Route::get('api', 'ApisController@index');
+Route::get('api/create', 'ApisController@create');
+Route::get('api/{id}', 'ApisController@show');
+Route::get('api/edit/{id}', 'ApisController@edit');
+Route::post('api/update/{id}', 'ApisController@update');
+Route::post('api', 'ApisController@store');
+
+Route::resource('normalize', 'NormalizetestController');
