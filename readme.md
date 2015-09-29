@@ -8,6 +8,34 @@ I'm just starting this project to contribute to the community and help mysefl du
 
 I'm using a common lamp stack with mysql as the database and take advantage of all Laravel cool features for environment configuration and detection, database configuration, flysystem storage, etc.
 
+## Project Requirements
+
+* PHP >= 5.5.9
+* Composer
+* MySql
+* mcrypt PHP Extension
+* Apache, Nginx
+
+## Installation
+
+* Clone the repo
+* If you install composer globally run
+```
+composer install
+```
+* If you install composer locally run
+```
+php composer.phar install
+```
+* Create the database on MySql (the name you want) and configure database on the file .env
+* Run the migration
+```
+php artisan migrate
+```
+
+That's it, it should be up and running.
+
+
 ## ToDo
 
 There are tons of things to do, so if you want to contribute just make a fork or create a branch for the feature you wan't to do, all changes must be integrated through pull requests.
