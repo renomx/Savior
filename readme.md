@@ -1,5 +1,4 @@
 # Savior
----------------------------------
 
 Savior is a project build with Laravel 5 (PHP) that aims to easily build and deploy REST APIs to any service, production, stage or testing environments as well as your local environments.
 
