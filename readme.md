@@ -1,27 +1,30 @@
-## Laravel PHP Framework
+# Savior
+---------------------------------
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+Savior is a project build with Laravel 5 (PHP) that aims to easily build and deploy REST APIs to any service, production, stage or testing environments as well as your local environments.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+I'm just starting this project to contribute to the community and help mysefl due to the increasing requests i've had for creating REST APIs for different applications and projects.
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+## The Stack
 
-## Official Documentation
+I'm using a common lamp stack with mysql as the database and take advantage of all Laravel cool features for environment configuration and detection, database configuration, flysystem storage, etc.
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+## ToDo
 
-## Contributing
+There are tons of things to do, so if you want to contribute just make a fork or create a branch for the feature you wan't to do, all changes must be integrated through pull requests.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+#### Coding
+- [ ] Implement authentication, authorization and roles
+- [ ] Found a web control (wysiwyg style) that accepts RAML or JSON and validates it
+- [ ] Improve Flysystem implementation for saving configuration files
 
-## Security Vulnerabilities
+#### PM
+- [ ] Create a Trello dashboard for managing all the project management
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+#### Documentation
+- [ ] All the documenation
 
-### License
+That's what came to my mind right know
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+
+Savior project is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
